@@ -65,7 +65,7 @@ public class StandardTank extends FluidTank {
     }
 
     public StandardTank canFill(boolean canFill) {
-        setCanFill(canDrain);
+        setCanFill(canFill);
         return this;
     }
 
